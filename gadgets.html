@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ELECTRONIC web</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="gadgets.html"><img src="img/eg.JPG"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</li>
+                    <li><a href="">ABOUT</li>
+                     <li><a href="">CONTACT</li>    
+                </ul>
+            </div>
+            <i class="bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Electronics Shop</h1>
+            <p><h2>Providing a simulating online shopping experience, it offers the latest range of gadgets and electronic products at most competitive prices.</h2></p>
+            <a href="" class="hero-btn">Visit Us </a>
+        </div>
+
+    </section>
+
+    
+
+    <section class="gadget">
+        <h1>Gadgets that are avaible</h1>
+        <p><h3>TV,WASHING MACHINE,FRIDGE,MOBILE,SMART WATCHES</h3></p>
+
+        <div class="row">
+            <div class="gadget-col">
+                <h3>MOST SOLD PRODUCTS</h3>
+                <p>Apple’s device ushered in a new era of flat, touchscreen phones with buttons that appeared on screen as you needed them, replacing the chunkier phones with slide-out keyboards and static buttons. </p>
+            </div>
+            
+            <div class="gadget-col">
+                <h3>TODAY'S OFFER</h3>
+                <p>Buy a smart phone worth 25000/-,Get a smart watch for free</p>
+            </div>
+            <div class="gadget-col">
+                <img src="img/phone3.JPG">
+               
+                   <h3 style="text-decoration: line-through;">65000</h3>
+                    <h3>52000 ONLY</h3>
+               </div>
+        </div>
+
+    </section>
+
+     <section class="products">
+        <h1>Our products</h1>
+        <p>Electronic gadgets have revolutionized the way we work, play, shop and communicate.</p>
+
+        <div class="row">
+            
+            
+                <div class="products-col">
+                 <img src="img/tv.JPG">
+                
+                 <h3><button type="submit" value="Submit">TV</button></h3>
+                    <p>Samsung brings TVs like HD TV, The Frame TV, Full HD TV, 4K UHD TV, QLED 8K TV, QLED 4K TV, Curved TV, Smart TV with latest technology.</p>  
+                </div>
+                <div class="products-col">
+                    <img src="img/phone2.JPG">
+                   
+                    <h3><button type="submit" value="Submit">PHONE</button></h3>
+                       <p>VIVO offers latest smartphones with advanced technology and design. Buy 3G, 4G, dual sim smartphone at best prices in India.</p>  
+                   </div>
+                   <div class="products-col">
+                    <img src="img/fridge.JPG">
+                   
+                       <h3><button type="submit" value="Submit">FRIDGE</button></h3>
+                       <p>Godrej refrigerators from Godrej for your home. Buy one at amazing offers! Keep your food cool in the coolest looking godrej refrigerators</p>  
+                   </div>
+                   <div class="products-col">
+                    <img src="img/watch.JPG">
+                   
+                    <h3><button type="submit" value="Submit">WATCH</button></h3>
+                       <p>Track your progress. Your own personal trainer, Apple  Watch lets you focus on more exercise with less planning. </p>  
+                   </div>
+
+        </div>
+    </section>
+
+    <div class="ty">
+
+   <h1 >THANK YOU</h1> 
+
+    </div>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <div class="apps">
+            <i class="fa fa-facebook"></i>  
+            <i class="fa fa-instagram"></i>           
+            <i class="fa fa-linkedin"></i>
+        </div>
+        
+    </section>
+ <script>
+
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
